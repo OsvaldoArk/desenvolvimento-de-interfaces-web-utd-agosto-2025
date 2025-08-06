@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+           <legend>DADOS PESSOAIS</legend> 
+           <input type="text" name="nome" id="" placeholder="NOME COMPLETO">
+           <br>
+           <p>*digite apenas números</p>
+           <input type="text" name="cpf" id="cpfId" placeholder="CPF" required>
+           <p>
+            data de nascimento
+           </p>
+           <input type="date" name="aniversario" id="">
+           <br>
+           <p>gênero</p>
+           <label for="femininoId"> 
+            feminino 
+           </label>
+           <input type="radio" name="genero" id="femininoId">
+           <label>
+            masculino <input type="radio" name="genero" id="">
+           </label>
+        </fieldset>
+        <fieldset>
+            <legend>ENDEREÇO</legend>
+            <p>logradouro</p>
+            <input type="tel" name="logradouro" id="">
+            <p>número logradouro</p>
+            <input type="tel" name="logradouronumero" id="">
+            <p>CEP</p>
+            <input type="text" name="cep" id="">
+            <p>municipio</p>
+            <input type="text" name="municipio" id="">
+            <p>estado</p>
+            <select name="estado" id="estadoId">
+                <option value="" selected disabled>SELECIONE O SEU ESTADO</option>
+                <option value="CE">CEARÁ</option>
+                <option value="RN">RIO GRANDE DO NORTE</option>
+                <option value="PI">PIAUÍ</option>
+                <option value="MA">MARANHÃO</option>
+                <option value="PB">PARAÍBA</option>
+                <option value="PE">PERNAMBUCO</option>
+                <option value="AL">ALAGOAS</option>
+                <option value="SE">SERGIPE</option>
+                <option value="BA">BAHIA</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>ALERGIAS CONHECIDAS</legend>
+            <label>POEIRA
+                <input type="checkbox" name="poeira" id="">
+            </label>
+            <label>CASTANHA
+                <input type="checkbox" name="castanha" id="">
+            </label>
+            <label>LACTOSE
+                <input type="checkbox" name="lactose" id="" checked>
+            </label>
+            <br>
+            <label>CAMARÃO
+                <input type="checkbox" name="camarão" id="">
+            </label>
+            <label>CHOCOLATE
+                <input type="checkbox" name="chocolate" id="">
+            </label>
+            <label>PERFUME
+                <input type="checkbox" name="perfume" id="">
+            </label>
+        </fieldset>
+        <button type="submit">enviar</button>
+        <button type="reset">apagar campos</button>
+    </form>
+</body>
+</html>
