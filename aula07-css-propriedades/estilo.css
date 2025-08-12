@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Special+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.paytone-one-regular {
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.painel{
+    width: 100vw;
+    margin: 0px;
+    display: flex;
+}
+
+.painel > img {
+    width:500px;
+    height: auto;
+    margin: 0px auto;
+}
+
+.painel > figcaption{
+    width:380px;
+    top:370px;
+    left:481px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 0.6em;
+    position: absolute;
+    text-align: right;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+.painel > figcaption > h2{
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 0px;
+    color:aliceblue;
+    text-shadow: 1px 1px 1px black;
+}
+
+.painel > figcaption > p{
+    color:aliceblue;
+}
