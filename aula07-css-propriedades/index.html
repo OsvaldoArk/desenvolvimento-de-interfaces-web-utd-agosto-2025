@@ -6,6 +6,7 @@
     <link href=
 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
           rel="stylesheet" />
+    <link rel="stylesheet" href="./reset.css">      
     <link rel="stylesheet" href="./estilo.css">
     <title>Saúde Primeiro</title>
 </head>
@@ -16,12 +17,12 @@
     <header class="cabecalho">
         <h1 id="topo">Saúde Primeiro</h1>
         <nav>
-            <ul type="none">
+            <ul class="navegacao">
                 <li><a href="#sobrenos">Sobre Nós</a></li>
                 <li><a href="#nossosmedicos">Médicos</a></li>
                 <li><a href="#servicos">Serviços</a></li>
                 <li><a href="#faleconosco">Fale Conosco</a></li>
-                <li><a href="#">Agendar Consulta</a></li>
+                <li><a class="botao" href="#">Agendar Consulta</a></li>
             </ul>
         </nav>
     </header>
@@ -32,7 +33,7 @@
             <figcaption>
                 <h2 class="paytone-regular">Bem vindo(a) ao Saúde Primeiro</h2>
                 <p>Seu parceiro de confiança para serviços de qualidade. Agende a sua consulta hoje mesmo e comece uma jornada para uma vida mais saudável.</p>
-                <p><a href="#">Agendar Consulta</a></p>
+                <p><a class="botao" href="#">Agendar Consulta</a></p>
             </figcaption>
         </figure>
         <section>
@@ -43,45 +44,51 @@
         </secion>
         <section>
             <h2 id="nossosmedicos">Nossos Médicos</h2>
-            <div>
-                <img width="100" src="../img/msn-icon-30.png" alt="foto do médico(a)">
-                <h4>
-                    Dra. Sofia Almeida
-                </h4>
-                <h5>
-                    Cardiologista
-                </h5>
-            </div>
-            <div>
-                <img width="100" src="../img/msn-icon-30.png" alt="foto do médico(a)">
-                <h4>
-                    Dr. Carlos Mendes                
-                </h4>
-                <h5>
-                    Clínico Geral
-                </h5>
-            </div>
-            <div>
-                <img width="100" src="../img/msn-icon-30.png" alt="foto do médico(a)">
-                <h4>
-                    Dra. Isabela Costa
-                </h4>
-                <h5>
-                    Pediatra
-                </h5>
+            <div class="lista-vertical">
+
+                <div class="card">
+                    <img class="foto-perfil" src="../img/msn-icon-30.png" alt="foto do médico(a)">
+                    <h4>
+                        Dra. Sofia Almeida
+                    </h4>
+                    <h5>
+                        Cardiologista
+                    </h5>
+                </div>
+                <div class="card">
+                    <img class="foto-perfil" src="../img/msn-icon-30.png" alt="foto do médico(a)">
+                    <h4>
+                        Dr. Carlos Mendes                
+                    </h4>
+                    <h5>
+                        Clínico Geral
+                    </h5>
+                </div>
+                <div class="card">
+                    <img class="foto-perfil" src="../img/msn-icon-30.png" alt="foto do médico(a)">
+                    <h4>
+                        Dra. Isabela Costa
+                    </h4>
+                    <h5>
+                        Pediatra
+                    </h5>
+                </div>
             </div>
         </section>
         <section id="servicos">
             <h2>Serviços</h2>
-            <div>
-                 <i class="fas fa-heart"></i> Cardiologista
-            </div>
-            <div>
-                <i class="fas fa-heartbeat"></i> Clínica Geral
-            </div>
-            <div>
-                <i class="fas fa-leaf"></i>
-                 Pediatria
+            <div class="lista-vertical">
+
+                <div>
+                     <i class="fas fa-heart"></i> Cardiologista
+                </div>
+                <div>
+                    <i class="fas fa-heartbeat"></i> Clínica Geral
+                </div>
+                <div>
+                    <i class="fas fa-leaf"></i>
+                     Pediatria
+                </div>
             </div>
         </section>
         <section id="faleconosco">

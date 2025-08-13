@@ -7,11 +7,51 @@
   font-style: normal;
 }
 
+p,h1,h2,h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-weight: bolder;
+}
 .cabecalho{
+    margin:20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navegacao > li{
+    margin-left: 30px;
+}
+
+.navegacao > li > a{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    text-decoration: none;
+}
+
+.botao{
+    color:black;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: pink;
+    border-radius: 20px;
+}
+
+main{
+    padding: 20px;
 }
 
 .painel{
@@ -28,9 +68,10 @@
 
 .painel > figcaption{
     width:380px;
-    top:370px;
-    left:481px;
-    padding: 5px;
+    height:auto;
+    top:295px;
+    left:480px;
+    padding: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
     font-size: 0.6em;
@@ -50,4 +91,37 @@
 
 .painel > figcaption > p{
     color:aliceblue;
+    margin-top: 25px;
+}
+
+.lista-vertical{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 150px;
+    height:150px;
+    text-align: center;
+    padding: 10px auto;
+    font-weight: bold;
+}
+
+.card > h4{
+    font-size: 0.8rem;
+}
+
+.card > h5{
+    font-size: 0.8rem;
+    color:rgba(0,0,0,0.7);
+}
+
+.foto-perfil{
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    background-color: aqua;
+    border-radius: 50%;
 }
