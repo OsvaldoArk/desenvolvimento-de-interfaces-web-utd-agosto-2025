@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    padding: 10px;
+    display: grid;
+    gap:15px;
+    /*vw = viewport width*/
+    grid-template-columns: 35vw 35vw 25vw;
+    /*vh = viewport height*/
+    grid-template-rows: 10vh 25vh 45vh 10vh;
+    grid-template-areas: "nav nav logo"
+                         "header header aside"
+                         "esquerda direita aside"
+                         "footer footer footer"   
+
+}
+
+.logo{
+    background-color: yellow;
+    grid-area: logo;
+}
+
+nav{
+    background-color: purple;
+    grid-area: nav;
+}
+
+header{
+    background-color: chartreuse;
+    grid-area: header;
+}
+
+aside{
+    background-color: crimson;
+    grid-area: aside;
+}
+
+.esquerda{
+    background-color: cadetblue;
+    grid-area: esquerda;
+}
+
+.direita{
+    background-color: orangered;
+    grid-area: direita;
+}
+
+footer{
+    background-color: fuchsia;
+    grid-area: footer;
+}
+
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: aliceblue;
+    /*vw = viewport width*/
+    grid-template-columns: 95vw;
+    /*vh = viewport height*/
+    grid-template-rows: 10vh 10vh 15vh 25vh 25vh 25vh 10vh;
+    grid-template-areas: "logo"
+                         "nav"
+                         "header"
+                         "aside"
+                         "esquerda"
+                         "direita"
+                         "footer" 
+  }
+}

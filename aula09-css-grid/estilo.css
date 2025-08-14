@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    padding: 10px;
+    display: grid;
+    gap:15px;
+    /*vw = viewport width*/
+    grid-template-columns: 35vw 35vw 25vw;
+    /*vh = viewport height*/
+    grid-template-rows: 10vh 25vh 45vh 10vh;
+}
+
+nav{
+    background-color: purple;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+header{
+    background-color: chartreuse;
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+aside{
+    background-color: crimson;
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+
+.esquerda{
+    background-color: cadetblue;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.direita{
+    background-color: orangered;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+footer{
+    background-color: fuchsia;
+    grid-column: 1/4;
+    grid-row: 4/5;
+}
