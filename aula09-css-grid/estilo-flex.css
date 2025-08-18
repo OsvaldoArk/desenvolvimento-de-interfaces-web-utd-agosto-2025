@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 15px;
+}
+
+nav{
+    background-color: purple;
+    width:97vw;
+    height: 10vh;
+}
+
+main{
+    width:97vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container{
+    width:67vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+header{
+    background-color: chartreuse;
+    width:95%;
+    height:45%;
+}
+
+.sub{
+    width:95%;
+    height:45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.esquerda{
+    width:48%;
+    height: 100%;
+    background-color: cadetblue;
+}
+
+.direita{
+    width:48%;
+    height: 100%;
+    background-color: orangered;
+}
+
+aside{
+    width:33vw;
+    height: 70vh;
+    background-color: crimson;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+footer{
+    background-color: fuchsia;
+    width:97vw;
+    height: 10vh;
+}

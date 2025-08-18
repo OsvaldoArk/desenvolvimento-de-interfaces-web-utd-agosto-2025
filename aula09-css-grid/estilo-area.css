@@ -7,7 +7,7 @@ body{
     grid-template-columns: 35vw 35vw 25vw;
     /*vh = viewport height*/
     grid-template-rows: 10vh 25vh 45vh 10vh;
-    grid-template-areas: "nav nav logo"
+    grid-template-areas: "nav nav nav"
                          "header header aside"
                          "esquerda direita aside"
                          "footer footer footer"   
