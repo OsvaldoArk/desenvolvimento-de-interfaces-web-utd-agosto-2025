@@ -1,12 +1,12 @@
-*Essa é a documentação do código
+* Essa é a documentação do código
 
-**Repositório das aulas do curso de Design de Interfaces Web
+** Repositório das aulas do curso de Design de Interfaces Web
 
-***Módulo I - HTML (Finalizado)
+*** Módulo I - HTML (Finalizado)
 
-***Módulo II - CSS (Finalizado)
+*** Módulo II - CSS (Finalizado)
 
-***Módulo III - Javascript Básico (em andamento)
+*** Módulo III - Javascript Básico (em andamento)
 
 Como clonar o respositório. 
 
