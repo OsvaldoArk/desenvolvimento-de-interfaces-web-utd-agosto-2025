@@ -16,6 +16,6 @@ for(var cont = 0; cont < 10; cont++){
 
     resultado = resultado.concat(numeros[cont]+" ");
 }
-
+//modificando o arquivo no projeto para aparecer no git
 console.log(resultado);
 console.log("quantidade de números pares: ",quantidadePar);
