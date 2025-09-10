@@ -1,0 +1,15 @@
+{
+  "name": "modulos",
+  "version": "1.0.0",
+  "description": "ensiando a usar modulos",
+  "keywords": [
+    "modulos"
+  ],
+  "license": "ISC",
+  "author": "osvaldo souza",
+  "type": "module",
+  "main": "teste.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
