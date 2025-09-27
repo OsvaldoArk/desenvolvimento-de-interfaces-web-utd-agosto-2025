@@ -1,0 +1,6 @@
+const texto = "Depois de algum tempo, você aprende a diferença, a sutil diferença, entre dar a mão e acorrentar uma alma. E você aprende que amar não significa apoiar-se, e que companhia nem sempre significa segurança. E começa a aprender que beijos não são contratos e presentes não são promessas. E começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza de uma criança. E aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto demais para os planos, e o futuro tem o costume de cair em meio ao vão. Depois de um tempo você aprende que o sol queima se ficar exposto por muito tempo. E aprende que não importa o quanto você se importe, algumas pessoas simplesmente não se importam... E aceita que não importa quão boa seja uma pessoa, ela vai feri-lo de vez em quando e você precisa perdoá-la, por isso. Aprende que falar pode aliviar dores emocionais.";
+
+const caps = texto.split(" ").map( palavra => palavra.toUpperCase())
+                             .reduce((resultado, palavra)=> resultado.concat(palavra+" "),"O menestrel: ");
+
+console.log(caps);
