@@ -51,16 +51,18 @@ document.getElementById("filtro").addEventListener("input", (evento)=>{
 
     const filtroProduto = evento.target.value.toLowerCase();
 
+    
     if(filtroProduto.length >3){
-        tabela.innerHTML = "";    
-
+        
         const listaFiltrada = listaProdutos
-                            .filter( produto => produto.title.toLowerCase()
-                                                             .includes(filtroProduto));
-
+        .filter( produto => produto.title.toLowerCase()
+        .includes(filtroProduto));
+        
+        tabela.innerHTML = "";
         populaTabela(listaFiltrada);
     }
     else{
+        tabela.innerHTML = "";
         populaTabela(listaProdutos);
     }
 });
