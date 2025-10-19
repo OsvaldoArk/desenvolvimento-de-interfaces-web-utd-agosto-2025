@@ -1,0 +1,29 @@
+.navegacao{
+    box-sizing: border-box;
+    color:aliceblue;
+    width: 100vw;
+    height:80px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacao > ul{
+    min-width:400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.navegacao > ul > li{
+    margin-right: 20px;
+}
+
+.navegacao > ul > li > a{
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+}

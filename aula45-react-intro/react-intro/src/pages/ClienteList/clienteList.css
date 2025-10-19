@@ -1,0 +1,15 @@
+#container{
+    width: 100vw;
+    height:auto;
+    padding:30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#container > table{
+    width: 60%;
+    height:auto;
+}
